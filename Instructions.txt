@@ -1,0 +1,8 @@
+git init
+ git add .
+ git commit -m "Initial commit"
+ git branch -M main
+ git remote add origin https://github.com/YOUR_GITHUB_USER/do400-pipelines-control.git
+ git add Jenkinsfile
+ git commit -m "Added Jenkins integration"
+ git push origin HEAD
